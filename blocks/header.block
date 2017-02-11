@@ -1,7 +1,7 @@
 
 <header id="header" class="site-header" role="banner" data-nc-base="header" data-nc-group="header" data-nc-loading="true">
-  <div data-nc-container="left">
-    <div class="wrapper">
+  <div class="wrapper">
+	<div data-nc-container="left">    
 		<div class="logo-wrapper" data-content-field="site-title" data-nc-element="branding">
 		{.section website}
 		  {.section logoImageUrl}
