@@ -52,10 +52,11 @@
           <squarespace:folder-navigation template="index-navigation" />
 
         </main>
-
-        <footer id="footer" class="site-footer" role="contentinfo">
-          <squarespace:block-field id="footer-blocks" columns="12" label="Footer Content" />
-        </footer>
+		<div class="bottom-wrapper">
+			<footer id="footer" class="site-footer" role="contentinfo">
+			  <squarespace:block-field id="footer-blocks" columns="12" label="Footer Content" />
+			</footer>
+		</div>
 
       </div>
     </div>
