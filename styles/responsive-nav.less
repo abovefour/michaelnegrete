@@ -38,7 +38,6 @@ body:not(.mobile-menu-open) {
 // mobile bar structure and layering
 
 .mobile-bar-wrapper {
-  background: #fff;
   display: none;
 }
 
@@ -120,6 +119,10 @@ body:not(.mobile-menu-open) {
 
 @media only screen and (max-width: 768px) {
 
+  .top-wrapper {
+	display: none;
+  }
+  
   // mobile bar defaults
 
   .mobile-bar-wrapper {
@@ -145,7 +148,7 @@ body:not(.mobile-menu-open) {
     }
 
     &:not(.tweak-transparent-fixed-mobile-bar) .mobile-bar-wrapper {
-      background-color: @bgColor;
+      background-color: #fff;
       .transition (background-color @mobileBgColorFadeIn linear);
     }
   }
